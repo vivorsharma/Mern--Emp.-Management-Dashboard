@@ -1,0 +1,59 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+table{
+  margin: 5rem auto;
+  border-radius: 2rem;
+  border: 1rem hidden #443C68;
+  border-collapse: collapse;
+  box-shadow: 0 0 0 1px black;
+  overflow: hidden;
+  max-width: 80rem;
+}
+
+li, p, a, td{
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+thead{
+  font-size: 1.8rem;
+  background-color: #443C68;
+  color: #fff;
+}
+
+th,
+td {
+  border: 1px solid #443C68;
+   min-width: 13.5rem;
+   padding: 1.5rem; 
+  line-height: 1.7; 
+}
+
+td{
+  font-size: 1.4rem;
+}
+.done{
+  background-color: #443C68;
+  color: white;
+  border-radius: 10px;
+}
+.edit{
+  background-color: #443C68;
+  color: white;
+  border-radius: 8px;
+}
+.delete{
+  background-color: #443C68;
+  color: white;
+  border-radius: 10px;
+}
